@@ -1,0 +1,192 @@
+/**
+ * Global Reset of all HTML Elements
+ *
+ * Resetting all of our HTML Elements ensures a smoother
+ * visual transition between browsers. If you don't believe me,
+ * try temporarily commenting out this block of code, then go
+ * and look at Mozilla versus Safari, both good browsers with
+ * a good implementation of CSS. The thing is, all browser CSS
+ * defaults are different and at the end of the day if visual
+ * consistency is what we're shooting for, then we need to
+ * make sure we're resetting all spacing elements.
+ *
+ */
+html, body {
+    height: 100%;
+    border: 0;
+    font-family: "Helvetica-Neue", "Helvetica", Arial, sans-serif;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+}
+
+div, span, object, iframe, img, table, caption, thead, tbody,
+tfoot, tr, tr, td, article, aside, canvas, details, figure, hgroup, menu,
+nav, footer, header, section, summary, mark, audio, video {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, address, cit, code,
+del, dfn, em, ins, q, samp, small, strong, sub, sup, b, i, hr, dl, dt, dd,
+ol, ul, li, fieldset, legend, label {
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    margin: 0;
+    padding: 0;
+}
+
+article, aside, canvas, figure, figure img, figcaption, hgroup,
+footer, header, nav, section, audio, video {
+    display: block;
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 0;
+    caption, th, td {
+        text-align: left;
+        vertical-align: middle;
+    }
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+a img {
+    border: 0;
+}
+
+:focus {
+    outline: 0;
+}
+*{
+    box-sizing: border-box;
+}
+textarea{
+    resize: none;
+    appearance: none;
+}
+input{
+    appearance: none;
+}
+select {
+    appearance: none;
+    background-color: #fff;
+}
+
+
+
+@media screen and (min-width: 320PX) {
+    html {
+        font-size:42.6PX
+    }
+
+    body {
+        font-size: 14PX
+    }
+}
+
+@media screen and (min-width: 360PX) {
+    html {
+        font-size:48PX
+    }
+
+    body {
+        font-size:14PX
+    }
+}
+
+@media screen and (min-width: 375PX) {
+    html {
+        font-size:50PX
+    }
+
+    body {
+        font-size: 16PX
+    }
+}
+
+@media screen and (min-width: 384PX) {
+    html {
+        font-size:51.2PX
+    }
+
+    body {
+        font-size: 14PX
+    }
+}
+
+@media screen and (min-width: 400PX) {
+    html {
+        font-size:53.3PX
+    }
+
+    body {
+        font-size: 14PX
+    }
+}
+
+@media screen and (min-width: 414PX) {
+    html {
+        font-size:55.2PX
+    }
+
+    body {
+        font-size: 14PX
+    }
+}
+
+@media screen and (min-width: 424PX) {
+    html {
+        font-size:56.5PX
+    }
+
+    body {
+        font-size: 14PX
+    }
+}
+
+@media screen and (min-width: 480PX) {
+    html {
+        font-size:64PX
+    }
+
+    body {
+        font-size: 16PX
+    }
+}
+
+@media screen and (min-width: 540PX) {
+    html {
+        font-size:72PX
+    }
+
+    body {
+        font-size: 17.28PX
+    }
+}
+
+@media screen and (min-width: 720PX) {
+    html {
+        font-size:96PX
+    }
+
+    body {
+        font-size: 23.04PX
+    }
+}
+
+@media screen and (min-width: 750PX) {
+    html {
+        font-size:100PX
+    }
+
+    body {
+        font-size: 24PX
+    }
+}
