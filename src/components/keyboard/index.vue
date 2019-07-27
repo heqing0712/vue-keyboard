@@ -135,8 +135,8 @@
 
         let activeIndex = this.activeIndex;
         let plateNumber = this.plateNumber;
-
         plateNumber[activeIndex] = '';
+
         if (activeIndex > 0) {
           this.inputKeyboard(activeIndex - 1);
         }
@@ -149,7 +149,7 @@
         let val = e.target.dataset.val;
         let activeIndex = this.activeIndex;
         let plateNumber = this.plateNumber;
-
+        
         plateNumber[activeIndex] = val;
 
         if (activeIndex < 7) {
