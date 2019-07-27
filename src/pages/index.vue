@@ -16,11 +16,7 @@
                 plateNumber: '粤A12345'.split('')
             };
         },
-        watch: {
-            plateNumber(v){
-                console.log(v)
-            }
-        },
+  
         created() {
         },
         methods: {

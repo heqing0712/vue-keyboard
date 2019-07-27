@@ -1,8 +1,8 @@
 {
-  "name": "my",
-  "version": "0.1.0",
+  "name": "vue-keyboard",
+  "version": "1.0.1",
   "private": true,
-  "author": "flnet.com",
+  "author": "heqing0712",
   "scripts": {
     "dev": "vue-cli-service serve ",
     "build": "vue-cli-service build",
