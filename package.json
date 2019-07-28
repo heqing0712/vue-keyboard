@@ -10,10 +10,6 @@
     "analyze": "vue-cli-service build"
   },
   "dependencies": {
-    "axios": "0.17.1",
-    "element-ui": "2.3.4",
-    "js-cookie": "2.2.0",
-    "normalize.css": "7.0.0",
     "nprogress": "0.2.0",
     "postcss-loader": "^3.0.0",
     "vue": "^2.5.17",
@@ -23,15 +19,12 @@
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.0.0",
     "@vue/cli-service": "^3.0.0",
-    "blueimp-md5": "^2.10.0",
     "node-sass": "^4.9.3",
     "postcss": "^7.0.7",
     "postcss-px2rem": "^0.3.0",
     "qiniu-webpack-plugin": "^0.4.2",
-    "qs": "^6.6.0",
     "sass-loader": "^7.1.0",
     "store": "^2.0.12",
-    "svg-sprite-loader": "3.5.2",
     "vue-template-compiler": "^2.5.17",
     "webpack-bundle-analyzer": "^2.13.1"
   },
