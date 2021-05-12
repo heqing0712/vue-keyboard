@@ -20,7 +20,7 @@
     "@vue/cli-plugin-babel": "^3.0.0",
     "@vue/cli-service": "^3.0.0",
     "node-sass": "^4.9.3",
-    "postcss": "^7.0.7",
+    "postcss": "^8.2.10",
     "postcss-px2rem": "^0.3.0",
     "qiniu-webpack-plugin": "^0.4.2",
     "sass-loader": "^7.1.0",
